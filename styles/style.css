@@ -1,0 +1,103 @@
+body {
+    font-family: 'Bitter', serif;
+    font-size: 1em;
+    background-color: #232323;
+    margin: 0;
+}
+
+h1 {
+    margin:  0;
+}
+
+.title {
+    text-align: center;
+    background-color: #f2f2f2;
+    color: white;
+    padding: 10px 0px 10px;
+        text-shadow: 0 0 5px #232323;
+}
+
+.strip {
+    background-color: whitesmoke;
+    width: 100%;  
+    min-height: 50px;
+}
+
+.square {
+    width: 22%;
+    padding-bottom: 22%;
+    background-color: aqua;
+    float: left;
+    border-radius: 20%;
+    margin: 1.5%;
+}
+.square:hover {
+     cursor: pointer;
+}
+.button {
+   background-color: whitesmoke; 
+    border: none;
+    color: black;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     min-height: 50px;
+   
+}
+
+.button:hover {
+    background-color: #232323;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.selected {
+     background-color: #232323;
+    color: whitesmoke;
+}
+
+#strip_container {
+    max-width: 550px;
+    min-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+#square_container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#reset_button {
+    float: left;
+}
+
+#display_message{
+   background-color: whitesmoke; 
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     
+}
+
+#easy_button {
+    float: right;
+}
+
+#medium_button {
+    float: right;
+}
+
+#hard_button {
+    float: right;
+}
+
